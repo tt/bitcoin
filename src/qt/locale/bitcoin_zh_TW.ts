@@ -2401,7 +2401,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@example.com
 </source>
         <translation>%s, 你必須要在以下設定檔中設定 RPC 密碼(rpcpassword):
 %s
@@ -2413,7 +2413,7 @@ rpcpassword=%s
 如果設定檔還不存在, 請在新增時, 設定檔案權限為&quot;只有主人才能讀取&quot;.
 也建議你設定警示通知, 發生問題時你才會被通知到;
 比如說設定為:
-alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@example.com
 </translation>
     </message>
     <message>
